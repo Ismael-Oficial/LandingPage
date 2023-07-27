@@ -1,56 +1,70 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=f20505&height=120&section=header"/>
+# Getting Started with Create React App
 
-<div align="center">
-  <h1>Landing Page CB300 - Honda</h1>
-</div>
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<div align="justify">
-  <p>Este é um projeto de Landing Page desenvolvido em React.js para apresentar a motocicleta CB300 da Honda. A página foi criada com o objetivo de destacar os principais recursos e vantagens da CB300, bem como fornecer informações relevantes para potenciais clientes e entusiastas.</p>
-</div>
+## Available Scripts
 
-<br>
+In the project directory, you can run:
 
-<div align="justify">
-  <h2>Visão Geral</h2>
-  <p>A Landing Page da CB300 é uma aplicação web responsiva, o que significa que ela se adapta a diferentes tamanhos de tela, incluindo desktops, tablets e smartphones. O layout foi projetado para fornecer uma experiência de usuário agradável e intuitiva, permitindo que os visitantes naveguem facilmente pelas informações sobre a moto.</p>
-</div>
+### `npm start`
 
-<br>
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-<div align="end">
-<img src="https://github.com/Ismael-Oficial/LandingPage/assets/125465461/b7de530d-fd8b-4456-8adf-39d52aef0b57">
-<p><i> Visualize o projeto hospedado aqui: https://landing-page-bice-mu.vercel.app/ </i></p> 
-</div>
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-<br>
+### `npm test`
 
-<div align="justify">
-  <h2>Projeto Não Oficial - Fins de Estudo</h2>
-  <p><b>Importante:</b> Este projeto não é oficial da Honda e foi criado apenas com propósitos educacionais e de estudo sobre o desenvolvimento de aplicações web utilizando a biblioteca React.js. A Landing Page CB300 não tem nenhum vínculo com a Honda Motor Co., Ltd., e não representa oficialmente a marca ou seus produtos.</p>
-  <p>O objetivo deste projeto foi exercitar habilidades em React.js, praticar conceitos de design responsivo e criar uma experiência de usuário envolvente em uma Landing Page. Todo o conteúdo, informações e imagens utilizadas são fictícios e foram criados apenas para fins de demonstração.</p>
-  <p>Caso você esteja interessado em obter informações oficiais sobre a Honda CB300 ou qualquer outro produto da empresa, recomendo visitar o site oficial da Honda ou entrar em contato com um revendedor autorizado.</p>
-  <p>Agradeço por visitar este projeto e espero que você tenha apreciado a experiência criada para esta Landing Page.</p>
-</div>
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-<br>
+### `npm run build`
 
-<div align="justify">
-  <h2>Licença Geral</h2>
-  <p>Este projeto é licenciado sob a MIT License. Sinta-se à vontade para usá-lo e modificá-lo de acordo com suas necessidades.</p>
-</div>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-<br>
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<div align="center">
-  <h2>Contato</h2>
-  <p>Se tiver alguma dúvida ou quiser entrar em contato, você pode me encontrar via e-mail, whatsapp ou linkedIn</p>
-  <p><b>E-mail:</b> ismaelchaves2001@outlook.com</p>
-  <p><b>Whatsapp:</b> (11) 96731-1534</p>
-  <p><b>LinkedIn:</b> linkedin.com/in/ismael-oficial/</p>
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-  <br>
+### `npm run eject`
 
-  <i>Projeto Desenvolvido em React.Js</i>
-</div>
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=f20505&height=120&section=footer"/>
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

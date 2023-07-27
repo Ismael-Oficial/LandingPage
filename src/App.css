@@ -5,7 +5,7 @@
   font-family: 'Red Rose', cursive;
 }
 
-body {
+.Home {
   background: #282828;
   background-image: url(./componentes/imgs/Slogan.png);
   background-size: 100%;
@@ -45,18 +45,17 @@ body {
 .Navbar ul li:hover:nth-child(3),
 .Navbar ul li:hover:nth-child(4),
 .Navbar ul li:hover:nth-child(5),
-.Navbar ul li:hover:nth-child(6)
-{
+.Navbar ul li:hover:nth-child(6) {
   background: #F20505;
   color: #FFF;
   cursor: pointer;
 }
 
-.Navbar ul li img{
+.Navbar ul li img {
   cursor: pointer;
 }
 
-.SocialMedia{
+.SocialMedia {
   width: 10%;
   height: 88vh;
   display: flex;
@@ -65,7 +64,7 @@ body {
   float: left;
 }
 
-.SocialMedia ul{
+.SocialMedia ul {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -73,11 +72,11 @@ body {
   list-style: none;
 }
 
-.SocialMedia ul li img{
+.SocialMedia ul li img {
   cursor: pointer;
 }
 
-.container{
+.container {
   width: 80%;
   height: 88vh;
   float: left;
@@ -87,17 +86,17 @@ body {
   align-items: center;
 }
 
-.container img{
+.container img {
   width: 90%;
 }
 
-.Sidebar{
+.Sidebar {
   width: 10%;
   height: 88vh;
   float: left;
 }
 
-.Sidebar img{
+.Sidebar img {
   position: absolute;
   bottom: 15px;
   right: 15px;
@@ -107,4 +106,99 @@ body {
   padding: 1rem;
 
   cursor: pointer;
+}
+
+.Sidebar img:hover {
+  background: #F20505;
+}
+
+.About {
+  width: 100%;
+  height: 100vh;
+  background: #FFF;
+  background-image: url(./componentes/imgs/backgground.png);
+  background-size: cover;
+  color: #FFF;
+}
+
+.About header {
+  height: 25vh;
+}
+
+.About header h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.About header p {
+  width: 35%;
+  text-align: justify;
+  margin: 4rem;
+  font-size: 18px;
+}
+
+.About section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.About section img {
+  width: 40%;
+}
+
+.About section:nth-child(2) {
+  color: #282828;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.About section button:nth-child(3) {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #BF0404;
+  border: none;
+  cursor: pointer;
+  margin: 0.2%;
+}
+
+.About section button:nth-child(4) {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #282828;
+  border: none;
+  cursor: pointer;
+  margin: 0.2%;
+}
+
+.About footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.About footer p {
+  width: 150px;
+  height: 150px;
+  background: #BF0404;
+  transform: skew(-280rad);
+  margin: 0.5rem;
+  transition: 0.6s;
+}
+
+.About footer p:hover {
+  transition: 0.6s;
+  box-shadow: 8px 8px #F20505;
+  margin: 0.5rem;
+}
+
+.About footer p img {
+  margin: 1.5rem;
+  width: 70%;
+  transform: skew(280rad);
 }

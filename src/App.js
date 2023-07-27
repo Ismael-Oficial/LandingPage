@@ -1,4 +1,5 @@
 import './App.css';
+import About from './componentes/About';
 import HomeCenter from './componentes/HomeCenter';
 import Navbar from './componentes/Navbar';
 import Sidebar from './componentes/Sidebar';
@@ -8,10 +9,13 @@ function App() {
 
   return (
     <div>
-      <Navbar />
-      <SocialMedia />
-      <HomeCenter />
-      <Sidebar />
+      <div className='Home'>
+        <Navbar />
+        <SocialMedia />
+        <HomeCenter />
+        <Sidebar />
+      </div>
+      <About />
     </div>
   );
 }
