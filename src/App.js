@@ -4,6 +4,7 @@ import HomeCenter from './componentes/HomeCenter';
 import Navbar from './componentes/Navbar';
 import Sidebar from './componentes/Sidebar';
 import SocialMedia from './componentes/SocialMedia';
+import Gallery from './componentes/Gallery';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
         <Sidebar />
       </div>
       <About />
+      <Gallery />
     </div>
   );
 }

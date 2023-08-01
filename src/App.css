@@ -202,3 +202,109 @@
   width: 70%;
   transform: skew(280rad);
 }
+
+.Gallery{
+  width: 100%;
+  height: 100vh;
+}
+
+.Gallery h2{
+  text-align: center;
+  font-size: 60px;
+}
+
+.Pictures-1{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Pictures-1 .Paint-1{
+  background: #BF0404;
+  width: 35%;
+  height: 280px;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.Pictures-1 .Paint-1 img{
+  width: 100%;
+  height: 280px;
+  transition: 0.3s;
+}
+
+.Pictures-1 .Paint-1 img:hover{
+  width: 101%;
+  height: 282px;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.Pictures-1 .Paint-2{
+  background: #BF0404;
+  width: 65%;
+  height: 280px;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.Pictures-1 .Paint-2 img{
+  width: 100%;
+  height: 280px;
+  transition: 0.3s;
+}
+
+.Pictures-1 .Paint-2 img:hover{
+  width: 101%;
+  height: 282px;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.Pictures-2{
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Pictures-2 .Paint-3{
+  background: #BF0404;
+  width: 55%;
+  height: 350px;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.Pictures-2 .Paint-3 img{
+  width: 100%;
+  height: 350px;
+  transition: 0.3s;
+}
+
+.Pictures-2 .Paint-3 img:hover{
+  width: 101%;
+  height: 352px;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
+
+.Pictures-2 .Paint-4{
+  background: #BF0404;
+  width: 45%;
+  height: 350px;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.Pictures-2 .Paint-4 img{
+  width: 100%;
+  height: 350px;
+  transition: 0.3s;
+}
+
+.Pictures-2 .Paint-4 img:hover{
+  width: 101%;
+  height: 352px;
+  filter: grayscale(100%);
+  transition: 0.3s;
+}
