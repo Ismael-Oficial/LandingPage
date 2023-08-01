@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 
 import CB300G from './imgs/cb300-gray.png';
 import CB300R from './imgs/cb300-red.png';
+import CB300Y from './imgs/cb300-gold.png';
 import Motor from './imgs/motor.png';
 import GPS from './imgs/mapa.png';
 import Roda from './imgs/pneu.png';
@@ -20,6 +21,10 @@ function About() {
     setMotoImage(CB300G);
   }
 
+  function Dourado() {
+    setMotoImage(CB300Y);
+  }
+
   return (
     <div className='About'>
       <header>
@@ -34,6 +39,7 @@ function About() {
         <p>Cores</p>
         <button onClick={Vermelho}></button>
         <button onClick={Cinza}></button>
+        <button onClick={Dourado}></button>
       </section>
       <footer>
         <div>

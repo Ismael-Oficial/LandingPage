@@ -174,6 +174,16 @@
   margin: 0.2%;
 }
 
+.About section button:nth-child(5) {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background: #e7c607;
+  border: none;
+  cursor: pointer;
+  margin: 0.2%;
+}
+
 .About footer {
   width: 100%;
   display: flex;
