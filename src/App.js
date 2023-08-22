@@ -5,6 +5,8 @@ import Navbar from './componentes/Navbar';
 import Sidebar from './componentes/Sidebar';
 import SocialMedia from './componentes/SocialMedia';
 import Gallery from './componentes/Gallery';
+import Contact from './componentes/Contact';
+import Footer from './componentes/Footer';
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
       </div>
       <About />
       <Gallery />
+      <Contact />
+      <Footer />
     </div>
   );
 }
