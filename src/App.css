@@ -230,7 +230,6 @@
 }
 
 .Pictures-1 .Paint-1{
-  background: #BF0404;
   width: 35%;
   height: 280px;
   margin: 0.5rem;
@@ -244,14 +243,12 @@
 }
 
 .Pictures-1 .Paint-1 img:hover{
-  width: 101%;
-  height: 282px;
+  scale: 1.05;
   filter: grayscale(100%);
   transition: 0.3s;
 }
 
 .Pictures-1 .Paint-2{
-  background: #BF0404;
   width: 65%;
   height: 280px;
   margin: 0.5rem;
@@ -265,8 +262,7 @@
 }
 
 .Pictures-1 .Paint-2 img:hover{
-  width: 101%;
-  height: 282px;
+  scale: 1.05;
   filter: grayscale(100%);
   transition: 0.3s;
 }
@@ -278,7 +274,6 @@
 }
 
 .Pictures-2 .Paint-3{
-  background: #BF0404;
   width: 55%;
   height: 350px;
   margin: 0.5rem;
@@ -292,14 +287,12 @@
 }
 
 .Pictures-2 .Paint-3 img:hover{
-  width: 101%;
-  height: 352px;
+  scale: 1.05;
   filter: grayscale(100%);
   transition: 0.3s;
 }
 
 .Pictures-2 .Paint-4{
-  background: #BF0404;
   width: 45%;
   height: 350px;
   margin: 0.5rem;
@@ -313,8 +306,7 @@
 }
 
 .Pictures-2 .Paint-4 img:hover{
-  width: 101%;
-  height: 352px;
+  scale: 1.05;
   filter: grayscale(100%);
   transition: 0.3s;
 }
@@ -378,7 +370,7 @@
   resize:none;
 }
 
-.Contato .Content .Formulario button{
+.Contato .Content .Formulario input[type=submit]{
   width: 80%;
   height: 8vh;
   font-size: 18px;
