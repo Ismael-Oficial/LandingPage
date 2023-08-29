@@ -406,7 +406,7 @@
   cursor: pointer;
 }
 
-.Contato .Content .Formulario button:hover{
+.Contato .Content .Formulario input[type=submit]:hover{
   background: #F20505;
 }
 
@@ -450,4 +450,8 @@
 
 .Footer .content span{
   color: #BF0404;
+}
+
+.Footer .content span:hover{
+  color: #F20505;
 }
